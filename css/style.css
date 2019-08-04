@@ -305,8 +305,10 @@ hr {
 .intro {
 	width:100%;
 	position:relative;	
-	background: url(../img/bg1.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../img/architecture.jpg) no-repeat top center;
+    background-size: cover;
+    width: auto;
+    height: auto;"
 }
 
 #intro.intro {
@@ -489,7 +491,7 @@ Parallax
 ============================= */
 
 #separator {	
-	background-image: url(../img/parallax-bg.jpg);
+	background-image: url(../img/desk.jpg);
 }
 
 #separator .icon {
@@ -497,7 +499,10 @@ Parallax
 }
 
 #separator span {
-	color: #fff;
+    color: rgb(96, 58, 128);
+    font-display: center;
+    font-weight: bold;
+    font-size: 30px
 }
 
 #separator:after {	
